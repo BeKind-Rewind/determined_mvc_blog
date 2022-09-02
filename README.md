@@ -32,7 +32,7 @@ Install Node.js, Clone DB, in terminal npm init or npm init -y, then npm i <pack
 
 
 ## Screenshots and Video
-coming soon
+https://ancient-meadow-81105.herokuapp.com
 ![Alt Text](./images/screenshot.png)
 
 
