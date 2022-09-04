@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bit Byte Blog</title>
+  <title>Just Tech News</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
+
 <body>
   <div class="wrapper">
     <header>
       <h1>
         <a href="/">Bit Byte Blog</a>
       </h1>
-
       <nav>
         {{#if loggedIn}}
         <a href="/dashboard">dashboard</a>
@@ -22,18 +22,18 @@
         <a href="/login">login</a>
         {{/if}}
       </nav>
-
-
     </header>
     <main>
       {{{ body }}}
     </main>
     <footer>
-      Let's potificate.
+      Let's potificate the intricacies of technology!
     </footer>
   </div>
+  
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
 </body>
+
 </html>
