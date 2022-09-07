@@ -13,7 +13,7 @@ class Post extends Model {
         },
         attributes: [
           'id',
-          'post_content',
+          'content',
           'title',
           'created_at',
           [
@@ -49,7 +49,7 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    post_content: {
+    content: {
       type: DataTypes.STRING,
       allowNull: false,
     },
