@@ -23,6 +23,14 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false
     },
+    twitter: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    github: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
